@@ -29,8 +29,6 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AppForm));
-            this.resultTextBox = new System.Windows.Forms.TextBox();
-            this.ResultLabel = new System.Windows.Forms.Label();
             this.calculateBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
@@ -74,33 +72,33 @@
             this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.label12 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
-            this.textBox21 = new System.Windows.Forms.TextBox();
-            this.textBox22 = new System.Windows.Forms.TextBox();
-            this.textBox23 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox27 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
-            this.textBox31 = new System.Windows.Forms.TextBox();
-            this.textBox32 = new System.Windows.Forms.TextBox();
+            this.InfoCountWFano3 = new System.Windows.Forms.TextBox();
+            this.WordsElementaryCountFano3 = new System.Windows.Forms.TextBox();
+            this.entropyFano3W = new System.Windows.Forms.TextBox();
+            this.InfoCountSenFano3 = new System.Windows.Forms.TextBox();
+            this.SenElementaryCountFano3 = new System.Windows.Forms.TextBox();
+            this.entropyFano3Sen = new System.Windows.Forms.TextBox();
+            this.InfoCountSyllablesFano3 = new System.Windows.Forms.TextBox();
+            this.SyllablElementaryCountFano3 = new System.Windows.Forms.TextBox();
+            this.InfoCountLettersFano3 = new System.Windows.Forms.TextBox();
+            this.entropyFano3Syllables = new System.Windows.Forms.TextBox();
+            this.LettersElementaryCountFano3 = new System.Windows.Forms.TextBox();
+            this.entropy3FanoLetters = new System.Windows.Forms.TextBox();
             this.label24 = new System.Windows.Forms.Label();
             this.label25 = new System.Windows.Forms.Label();
             this.label26 = new System.Windows.Forms.Label();
-            this.textBox33 = new System.Windows.Forms.TextBox();
-            this.textBox34 = new System.Windows.Forms.TextBox();
-            this.textBox35 = new System.Windows.Forms.TextBox();
-            this.textBox36 = new System.Windows.Forms.TextBox();
-            this.textBox37 = new System.Windows.Forms.TextBox();
-            this.textBox38 = new System.Windows.Forms.TextBox();
-            this.textBox39 = new System.Windows.Forms.TextBox();
-            this.textBox40 = new System.Windows.Forms.TextBox();
-            this.textBox41 = new System.Windows.Forms.TextBox();
-            this.textBox42 = new System.Windows.Forms.TextBox();
-            this.textBox43 = new System.Windows.Forms.TextBox();
-            this.textBox44 = new System.Windows.Forms.TextBox();
+            this.InfoCountWFano5 = new System.Windows.Forms.TextBox();
+            this.WordsElementaryCountFano5 = new System.Windows.Forms.TextBox();
+            this.entropyFano5W = new System.Windows.Forms.TextBox();
+            this.InfoCountSenFano5 = new System.Windows.Forms.TextBox();
+            this.SenElementaryCountFano5 = new System.Windows.Forms.TextBox();
+            this.entropyFano5Sen = new System.Windows.Forms.TextBox();
+            this.InfoCountSyllablesFano5 = new System.Windows.Forms.TextBox();
+            this.SyllablElementaryCountFano5 = new System.Windows.Forms.TextBox();
+            this.InfoCountLettersFano5 = new System.Windows.Forms.TextBox();
+            this.entropyFano5Syllables = new System.Windows.Forms.TextBox();
+            this.LettersElementaryCountFano5 = new System.Windows.Forms.TextBox();
+            this.entropy5FanoLetters = new System.Windows.Forms.TextBox();
             this.label27 = new System.Windows.Forms.Label();
             this.label28 = new System.Windows.Forms.Label();
             this.label29 = new System.Windows.Forms.Label();
@@ -119,13 +117,6 @@
             this.label30 = new System.Windows.Forms.Label();
             this.label31 = new System.Windows.Forms.Label();
             this.label32 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label15 = new System.Windows.Forms.Label();
-            this.label16 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -174,90 +165,84 @@
             this.textBox118 = new System.Windows.Forms.TextBox();
             this.textBox119 = new System.Windows.Forms.TextBox();
             this.textBox120 = new System.Windows.Forms.TextBox();
-            this.textBox121 = new System.Windows.Forms.TextBox();
-            this.textBox122 = new System.Windows.Forms.TextBox();
-            this.textBox123 = new System.Windows.Forms.TextBox();
-            this.textBox124 = new System.Windows.Forms.TextBox();
-            this.textBox125 = new System.Windows.Forms.TextBox();
-            this.textBox126 = new System.Windows.Forms.TextBox();
-            this.textBox127 = new System.Windows.Forms.TextBox();
-            this.textBox128 = new System.Windows.Forms.TextBox();
-            this.textBox129 = new System.Windows.Forms.TextBox();
-            this.textBox130 = new System.Windows.Forms.TextBox();
-            this.textBox131 = new System.Windows.Forms.TextBox();
-            this.textBox132 = new System.Windows.Forms.TextBox();
-            this.textBox133 = new System.Windows.Forms.TextBox();
-            this.textBox134 = new System.Windows.Forms.TextBox();
-            this.textBox135 = new System.Windows.Forms.TextBox();
-            this.textBox136 = new System.Windows.Forms.TextBox();
-            this.textBox137 = new System.Windows.Forms.TextBox();
-            this.textBox138 = new System.Windows.Forms.TextBox();
-            this.textBox139 = new System.Windows.Forms.TextBox();
-            this.textBox140 = new System.Windows.Forms.TextBox();
-            this.textBox141 = new System.Windows.Forms.TextBox();
-            this.textBox142 = new System.Windows.Forms.TextBox();
-            this.textBox143 = new System.Windows.Forms.TextBox();
-            this.textBox144 = new System.Windows.Forms.TextBox();
-            this.textBox145 = new System.Windows.Forms.TextBox();
-            this.textBox146 = new System.Windows.Forms.TextBox();
-            this.textBox147 = new System.Windows.Forms.TextBox();
-            this.textBox148 = new System.Windows.Forms.TextBox();
-            this.textBox149 = new System.Windows.Forms.TextBox();
+            this.InfoCountWHuf5 = new System.Windows.Forms.TextBox();
+            this.WordsElementaryCountHuf5 = new System.Windows.Forms.TextBox();
+            this.entropyHuf5W = new System.Windows.Forms.TextBox();
+            this.InfoCountSenHuf5 = new System.Windows.Forms.TextBox();
+            this.SenElementaryCountHuf5 = new System.Windows.Forms.TextBox();
+            this.entropyHuf5Sen = new System.Windows.Forms.TextBox();
+            this.InfoCountSyllablesHuf5 = new System.Windows.Forms.TextBox();
+            this.SyllablElementaryCountHuf5 = new System.Windows.Forms.TextBox();
+            this.InfoCountLettersHuf5 = new System.Windows.Forms.TextBox();
+            this.entropyHuf5Syllables = new System.Windows.Forms.TextBox();
+            this.LettersElementaryCountHuf5 = new System.Windows.Forms.TextBox();
+            this.entropyHuf5Letters = new System.Windows.Forms.TextBox();
+            this.InfoCountWHuf3 = new System.Windows.Forms.TextBox();
+            this.WordsElementaryCountHuf3 = new System.Windows.Forms.TextBox();
+            this.entropyHuf3W = new System.Windows.Forms.TextBox();
+            this.InfoCountSenHuf3 = new System.Windows.Forms.TextBox();
+            this.SenElementaryCountHuf3 = new System.Windows.Forms.TextBox();
+            this.entropyHuf3Sen = new System.Windows.Forms.TextBox();
+            this.InfoCountSyllablesHuf3 = new System.Windows.Forms.TextBox();
+            this.SyllablElementaryCountHuf3 = new System.Windows.Forms.TextBox();
+            this.InfoCountLettersHuf3 = new System.Windows.Forms.TextBox();
+            this.entropyHuf3Syllables = new System.Windows.Forms.TextBox();
+            this.LettersElementaryCountHuf3 = new System.Windows.Forms.TextBox();
+            this.entropyHuf3Letters = new System.Windows.Forms.TextBox();
+            this.InfoCountWHuf2 = new System.Windows.Forms.TextBox();
+            this.WordsElementaryCountHuf2 = new System.Windows.Forms.TextBox();
+            this.entropyHuf2W = new System.Windows.Forms.TextBox();
+            this.CountUnicWordsHufTextbox = new System.Windows.Forms.TextBox();
+            this.CountLettersHufTextbox = new System.Windows.Forms.TextBox();
             this.label44 = new System.Windows.Forms.Label();
-            this.textBox150 = new System.Windows.Forms.TextBox();
-            this.textBox151 = new System.Windows.Forms.TextBox();
-            this.textBox152 = new System.Windows.Forms.TextBox();
-            this.textBox153 = new System.Windows.Forms.TextBox();
-            this.textBox154 = new System.Windows.Forms.TextBox();
+            this.InfoCountSenHuf2 = new System.Windows.Forms.TextBox();
+            this.SenElementaryCountHuf2 = new System.Windows.Forms.TextBox();
+            this.entropyHuf2Sen = new System.Windows.Forms.TextBox();
+            this.CountUnicSenHufTextbox = new System.Windows.Forms.TextBox();
+            this.CountWordsHuffmanTextbox = new System.Windows.Forms.TextBox();
             this.label45 = new System.Windows.Forms.Label();
-            this.textBox155 = new System.Windows.Forms.TextBox();
-            this.textBox156 = new System.Windows.Forms.TextBox();
-            this.textBox157 = new System.Windows.Forms.TextBox();
-            this.textBox158 = new System.Windows.Forms.TextBox();
-            this.textBox159 = new System.Windows.Forms.TextBox();
-            this.textBox160 = new System.Windows.Forms.TextBox();
-            this.textBox161 = new System.Windows.Forms.TextBox();
-            this.textBox162 = new System.Windows.Forms.TextBox();
-            this.textBox163 = new System.Windows.Forms.TextBox();
-            this.textBox164 = new System.Windows.Forms.TextBox();
+            this.InfoCountSyllablesHuf2 = new System.Windows.Forms.TextBox();
+            this.SyllablElementaryCountHuf2 = new System.Windows.Forms.TextBox();
+            this.InfoCountLettersHuf2 = new System.Windows.Forms.TextBox();
+            this.entropyHuf2Syllables = new System.Windows.Forms.TextBox();
+            this.LettersElementaryCountHuf2 = new System.Windows.Forms.TextBox();
+            this.entropyHuf2Letters = new System.Windows.Forms.TextBox();
+            this.CountUnicSyllablesHufTextbox = new System.Windows.Forms.TextBox();
+            this.CountSentencesHuffmanTextbox = new System.Windows.Forms.TextBox();
+            this.CountUnicLettersHufTextbox = new System.Windows.Forms.TextBox();
+            this.CountSyllsblesHuffmanTextbox = new System.Windows.Forms.TextBox();
             this.label46 = new System.Windows.Forms.Label();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.label19 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
+            this.Fanofor2Check = new System.Windows.Forms.CheckBox();
+            this.Huffmanfor2Check = new System.Windows.Forms.CheckBox();
+            this.Fanofor3Check = new System.Windows.Forms.CheckBox();
+            this.Huffmanfor3Check = new System.Windows.Forms.CheckBox();
+            this.Fanofor5Check = new System.Windows.Forms.CheckBox();
+            this.Huffmanfor5Check = new System.Windows.Forms.CheckBox();
+            this.checkBoxforSen = new System.Windows.Forms.CheckBox();
+            this.checkBoxforWords = new System.Windows.Forms.CheckBox();
+            this.checkBoxforSyllables = new System.Windows.Forms.CheckBox();
+            this.checkBoxforLetters = new System.Windows.Forms.CheckBox();
+            this.label15 = new System.Windows.Forms.Label();
+            this.textBox73 = new System.Windows.Forms.TextBox();
+            this.resultTextBox = new System.Windows.Forms.TextBox();
+            this.allFano = new System.Windows.Forms.CheckBox();
+            this.allHuffman = new System.Windows.Forms.CheckBox();
+            this.allLec = new System.Windows.Forms.CheckBox();
+            this.all = new System.Windows.Forms.CheckBox();
+            this.needGrafic = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
-            // 
-            // resultTextBox
-            // 
-            this.resultTextBox.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.resultTextBox.Location = new System.Drawing.Point(422, 81);
-            this.resultTextBox.Multiline = true;
-            this.resultTextBox.Name = "resultTextBox";
-            this.resultTextBox.ReadOnly = true;
-            this.resultTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
-            this.resultTextBox.Size = new System.Drawing.Size(942, 140);
-            this.resultTextBox.TabIndex = 2;
-            // 
-            // ResultLabel
-            // 
-            this.ResultLabel.AutoSize = true;
-            this.ResultLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
-            this.ResultLabel.Location = new System.Drawing.Point(418, 54);
-            this.ResultLabel.Name = "ResultLabel";
-            this.ResultLabel.Size = new System.Drawing.Size(260, 25);
-            this.ResultLabel.TabIndex = 3;
-            this.ResultLabel.Text = "Вывод работы программы";
             // 
             // calculateBtn
             // 
             this.calculateBtn.BackColor = System.Drawing.SystemColors.InactiveBorder;
             this.calculateBtn.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
-            this.calculateBtn.Location = new System.Drawing.Point(422, 9);
+            this.calculateBtn.Location = new System.Drawing.Point(1058, 61);
             this.calculateBtn.Name = "calculateBtn";
-            this.calculateBtn.Size = new System.Drawing.Size(943, 44);
+            this.calculateBtn.Size = new System.Drawing.Size(360, 44);
             this.calculateBtn.TabIndex = 4;
             this.calculateBtn.Text = "Вычислить";
             this.calculateBtn.UseVisualStyleBackColor = false;
@@ -346,7 +331,7 @@
             // 
             // buttonOpenFile
             // 
-            this.buttonOpenFile.Location = new System.Drawing.Point(29, 51);
+            this.buttonOpenFile.Location = new System.Drawing.Point(29, 46);
             this.buttonOpenFile.Name = "buttonOpenFile";
             this.buttonOpenFile.Size = new System.Drawing.Size(357, 32);
             this.buttonOpenFile.TabIndex = 15;
@@ -356,7 +341,7 @@
             // 
             // FilePathTextBox
             // 
-            this.FilePathTextBox.Location = new System.Drawing.Point(29, 22);
+            this.FilePathTextBox.Location = new System.Drawing.Point(29, 20);
             this.FilePathTextBox.Name = "FilePathTextBox";
             this.FilePathTextBox.ReadOnly = true;
             this.FilePathTextBox.Size = new System.Drawing.Size(357, 26);
@@ -365,7 +350,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(26, 2);
+            this.label6.Location = new System.Drawing.Point(26, -1);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(331, 20);
             this.label6.TabIndex = 17;
@@ -373,7 +358,7 @@
             // 
             // label7
             // 
-            this.label7.Location = new System.Drawing.Point(25, 82);
+            this.label7.Location = new System.Drawing.Point(25, 77);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(341, 23);
             this.label7.TabIndex = 20;
@@ -381,7 +366,7 @@
             // 
             // FolderPathTextBox
             // 
-            this.FolderPathTextBox.Location = new System.Drawing.Point(28, 108);
+            this.FolderPathTextBox.Location = new System.Drawing.Point(28, 100);
             this.FolderPathTextBox.Name = "FolderPathTextBox";
             this.FolderPathTextBox.ReadOnly = true;
             this.FolderPathTextBox.Size = new System.Drawing.Size(358, 26);
@@ -389,7 +374,7 @@
             // 
             // buttonOpenFolder
             // 
-            this.buttonOpenFolder.Location = new System.Drawing.Point(28, 137);
+            this.buttonOpenFolder.Location = new System.Drawing.Point(28, 125);
             this.buttonOpenFolder.Name = "buttonOpenFolder";
             this.buttonOpenFolder.Size = new System.Drawing.Size(358, 32);
             this.buttonOpenFolder.TabIndex = 18;
@@ -596,7 +581,7 @@
             // 
             this.label13.AutoEllipsis = true;
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(26, 171);
+            this.label13.Location = new System.Drawing.Point(26, 158);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(161, 20);
             this.label13.TabIndex = 29;
@@ -605,7 +590,7 @@
             // radioButton1
             // 
             this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(67, 190);
+            this.radioButton1.Location = new System.Drawing.Point(67, 174);
             this.radioButton1.Name = "radioButton1";
             this.radioButton1.Size = new System.Drawing.Size(143, 24);
             this.radioButton1.TabIndex = 35;
@@ -616,7 +601,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(67, 212);
+            this.radioButton2.Location = new System.Drawing.Point(67, 196);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(183, 24);
             this.radioButton2.TabIndex = 36;
@@ -645,113 +630,113 @@
             this.label14.TabIndex = 38;
             this.label14.Text = "Метод Хаффмена";
             // 
-            // textBox21
+            // InfoCountWFano3
             // 
-            this.textBox21.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox21.Location = new System.Drawing.Point(315, 546);
-            this.textBox21.Name = "textBox21";
-            this.textBox21.ReadOnly = true;
-            this.textBox21.Size = new System.Drawing.Size(70, 26);
-            this.textBox21.TabIndex = 80;
+            this.InfoCountWFano3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountWFano3.Location = new System.Drawing.Point(315, 546);
+            this.InfoCountWFano3.Name = "InfoCountWFano3";
+            this.InfoCountWFano3.ReadOnly = true;
+            this.InfoCountWFano3.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountWFano3.TabIndex = 80;
             // 
-            // textBox22
+            // WordsElementaryCountFano3
             // 
-            this.textBox22.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox22.Location = new System.Drawing.Point(315, 515);
-            this.textBox22.Name = "textBox22";
-            this.textBox22.ReadOnly = true;
-            this.textBox22.Size = new System.Drawing.Size(70, 26);
-            this.textBox22.TabIndex = 81;
+            this.WordsElementaryCountFano3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WordsElementaryCountFano3.Location = new System.Drawing.Point(315, 515);
+            this.WordsElementaryCountFano3.Name = "WordsElementaryCountFano3";
+            this.WordsElementaryCountFano3.ReadOnly = true;
+            this.WordsElementaryCountFano3.Size = new System.Drawing.Size(70, 26);
+            this.WordsElementaryCountFano3.TabIndex = 81;
             // 
-            // textBox23
+            // entropyFano3W
             // 
-            this.textBox23.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox23.Location = new System.Drawing.Point(315, 483);
-            this.textBox23.Name = "textBox23";
-            this.textBox23.ReadOnly = true;
-            this.textBox23.Size = new System.Drawing.Size(70, 26);
-            this.textBox23.TabIndex = 82;
+            this.entropyFano3W.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyFano3W.Location = new System.Drawing.Point(315, 483);
+            this.entropyFano3W.Name = "entropyFano3W";
+            this.entropyFano3W.ReadOnly = true;
+            this.entropyFano3W.Size = new System.Drawing.Size(70, 26);
+            this.entropyFano3W.TabIndex = 82;
             // 
-            // textBox24
+            // InfoCountSenFano3
             // 
-            this.textBox24.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox24.Location = new System.Drawing.Point(234, 548);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.ReadOnly = true;
-            this.textBox24.Size = new System.Drawing.Size(70, 26);
-            this.textBox24.TabIndex = 77;
+            this.InfoCountSenFano3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSenFano3.Location = new System.Drawing.Point(234, 548);
+            this.InfoCountSenFano3.Name = "InfoCountSenFano3";
+            this.InfoCountSenFano3.ReadOnly = true;
+            this.InfoCountSenFano3.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSenFano3.TabIndex = 77;
             // 
-            // textBox25
+            // SenElementaryCountFano3
             // 
-            this.textBox25.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox25.Location = new System.Drawing.Point(234, 516);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.ReadOnly = true;
-            this.textBox25.Size = new System.Drawing.Size(70, 26);
-            this.textBox25.TabIndex = 78;
+            this.SenElementaryCountFano3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SenElementaryCountFano3.Location = new System.Drawing.Point(234, 516);
+            this.SenElementaryCountFano3.Name = "SenElementaryCountFano3";
+            this.SenElementaryCountFano3.ReadOnly = true;
+            this.SenElementaryCountFano3.Size = new System.Drawing.Size(70, 26);
+            this.SenElementaryCountFano3.TabIndex = 78;
             // 
-            // textBox26
+            // entropyFano3Sen
             // 
-            this.textBox26.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox26.Location = new System.Drawing.Point(234, 484);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.ReadOnly = true;
-            this.textBox26.Size = new System.Drawing.Size(70, 26);
-            this.textBox26.TabIndex = 79;
+            this.entropyFano3Sen.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyFano3Sen.Location = new System.Drawing.Point(234, 484);
+            this.entropyFano3Sen.Name = "entropyFano3Sen";
+            this.entropyFano3Sen.ReadOnly = true;
+            this.entropyFano3Sen.Size = new System.Drawing.Size(70, 26);
+            this.entropyFano3Sen.TabIndex = 79;
             // 
-            // textBox27
+            // InfoCountSyllablesFano3
             // 
-            this.textBox27.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox27.Location = new System.Drawing.Point(400, 546);
-            this.textBox27.Name = "textBox27";
-            this.textBox27.ReadOnly = true;
-            this.textBox27.Size = new System.Drawing.Size(70, 26);
-            this.textBox27.TabIndex = 74;
+            this.InfoCountSyllablesFano3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSyllablesFano3.Location = new System.Drawing.Point(400, 546);
+            this.InfoCountSyllablesFano3.Name = "InfoCountSyllablesFano3";
+            this.InfoCountSyllablesFano3.ReadOnly = true;
+            this.InfoCountSyllablesFano3.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSyllablesFano3.TabIndex = 74;
             // 
-            // textBox28
+            // SyllablElementaryCountFano3
             // 
-            this.textBox28.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox28.Location = new System.Drawing.Point(400, 515);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.ReadOnly = true;
-            this.textBox28.Size = new System.Drawing.Size(70, 26);
-            this.textBox28.TabIndex = 75;
+            this.SyllablElementaryCountFano3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SyllablElementaryCountFano3.Location = new System.Drawing.Point(400, 515);
+            this.SyllablElementaryCountFano3.Name = "SyllablElementaryCountFano3";
+            this.SyllablElementaryCountFano3.ReadOnly = true;
+            this.SyllablElementaryCountFano3.Size = new System.Drawing.Size(70, 26);
+            this.SyllablElementaryCountFano3.TabIndex = 75;
             // 
-            // textBox29
+            // InfoCountLettersFano3
             // 
-            this.textBox29.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox29.Location = new System.Drawing.Point(486, 546);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.ReadOnly = true;
-            this.textBox29.Size = new System.Drawing.Size(70, 26);
-            this.textBox29.TabIndex = 71;
+            this.InfoCountLettersFano3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountLettersFano3.Location = new System.Drawing.Point(486, 546);
+            this.InfoCountLettersFano3.Name = "InfoCountLettersFano3";
+            this.InfoCountLettersFano3.ReadOnly = true;
+            this.InfoCountLettersFano3.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountLettersFano3.TabIndex = 71;
             // 
-            // textBox30
+            // entropyFano3Syllables
             // 
-            this.textBox30.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox30.Location = new System.Drawing.Point(400, 483);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.ReadOnly = true;
-            this.textBox30.Size = new System.Drawing.Size(70, 26);
-            this.textBox30.TabIndex = 76;
+            this.entropyFano3Syllables.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyFano3Syllables.Location = new System.Drawing.Point(400, 483);
+            this.entropyFano3Syllables.Name = "entropyFano3Syllables";
+            this.entropyFano3Syllables.ReadOnly = true;
+            this.entropyFano3Syllables.Size = new System.Drawing.Size(70, 26);
+            this.entropyFano3Syllables.TabIndex = 76;
             // 
-            // textBox31
+            // LettersElementaryCountFano3
             // 
-            this.textBox31.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox31.Location = new System.Drawing.Point(486, 516);
-            this.textBox31.Name = "textBox31";
-            this.textBox31.ReadOnly = true;
-            this.textBox31.Size = new System.Drawing.Size(70, 26);
-            this.textBox31.TabIndex = 72;
+            this.LettersElementaryCountFano3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LettersElementaryCountFano3.Location = new System.Drawing.Point(486, 516);
+            this.LettersElementaryCountFano3.Name = "LettersElementaryCountFano3";
+            this.LettersElementaryCountFano3.ReadOnly = true;
+            this.LettersElementaryCountFano3.Size = new System.Drawing.Size(70, 26);
+            this.LettersElementaryCountFano3.TabIndex = 72;
             // 
-            // textBox32
+            // entropy3FanoLetters
             // 
-            this.textBox32.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox32.Location = new System.Drawing.Point(486, 484);
-            this.textBox32.Name = "textBox32";
-            this.textBox32.ReadOnly = true;
-            this.textBox32.Size = new System.Drawing.Size(70, 26);
-            this.textBox32.TabIndex = 73;
+            this.entropy3FanoLetters.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropy3FanoLetters.Location = new System.Drawing.Point(486, 484);
+            this.entropy3FanoLetters.Name = "entropy3FanoLetters";
+            this.entropy3FanoLetters.ReadOnly = true;
+            this.entropy3FanoLetters.Size = new System.Drawing.Size(70, 26);
+            this.entropy3FanoLetters.TabIndex = 73;
             // 
             // label24
             // 
@@ -783,113 +768,113 @@
             this.label26.TabIndex = 70;
             this.label26.Text = "Энтропия";
             // 
-            // textBox33
+            // InfoCountWFano5
             // 
-            this.textBox33.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox33.Location = new System.Drawing.Point(315, 658);
-            this.textBox33.Name = "textBox33";
-            this.textBox33.ReadOnly = true;
-            this.textBox33.Size = new System.Drawing.Size(70, 26);
-            this.textBox33.TabIndex = 95;
+            this.InfoCountWFano5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountWFano5.Location = new System.Drawing.Point(315, 658);
+            this.InfoCountWFano5.Name = "InfoCountWFano5";
+            this.InfoCountWFano5.ReadOnly = true;
+            this.InfoCountWFano5.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountWFano5.TabIndex = 95;
             // 
-            // textBox34
+            // WordsElementaryCountFano5
             // 
-            this.textBox34.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox34.Location = new System.Drawing.Point(315, 627);
-            this.textBox34.Name = "textBox34";
-            this.textBox34.ReadOnly = true;
-            this.textBox34.Size = new System.Drawing.Size(70, 26);
-            this.textBox34.TabIndex = 96;
+            this.WordsElementaryCountFano5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WordsElementaryCountFano5.Location = new System.Drawing.Point(315, 627);
+            this.WordsElementaryCountFano5.Name = "WordsElementaryCountFano5";
+            this.WordsElementaryCountFano5.ReadOnly = true;
+            this.WordsElementaryCountFano5.Size = new System.Drawing.Size(70, 26);
+            this.WordsElementaryCountFano5.TabIndex = 96;
             // 
-            // textBox35
+            // entropyFano5W
             // 
-            this.textBox35.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox35.Location = new System.Drawing.Point(315, 595);
-            this.textBox35.Name = "textBox35";
-            this.textBox35.ReadOnly = true;
-            this.textBox35.Size = new System.Drawing.Size(70, 26);
-            this.textBox35.TabIndex = 97;
+            this.entropyFano5W.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyFano5W.Location = new System.Drawing.Point(315, 595);
+            this.entropyFano5W.Name = "entropyFano5W";
+            this.entropyFano5W.ReadOnly = true;
+            this.entropyFano5W.Size = new System.Drawing.Size(70, 26);
+            this.entropyFano5W.TabIndex = 97;
             // 
-            // textBox36
+            // InfoCountSenFano5
             // 
-            this.textBox36.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox36.Location = new System.Drawing.Point(234, 659);
-            this.textBox36.Name = "textBox36";
-            this.textBox36.ReadOnly = true;
-            this.textBox36.Size = new System.Drawing.Size(70, 26);
-            this.textBox36.TabIndex = 92;
+            this.InfoCountSenFano5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSenFano5.Location = new System.Drawing.Point(234, 659);
+            this.InfoCountSenFano5.Name = "InfoCountSenFano5";
+            this.InfoCountSenFano5.ReadOnly = true;
+            this.InfoCountSenFano5.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSenFano5.TabIndex = 92;
             // 
-            // textBox37
+            // SenElementaryCountFano5
             // 
-            this.textBox37.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox37.Location = new System.Drawing.Point(234, 627);
-            this.textBox37.Name = "textBox37";
-            this.textBox37.ReadOnly = true;
-            this.textBox37.Size = new System.Drawing.Size(70, 26);
-            this.textBox37.TabIndex = 93;
+            this.SenElementaryCountFano5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SenElementaryCountFano5.Location = new System.Drawing.Point(234, 627);
+            this.SenElementaryCountFano5.Name = "SenElementaryCountFano5";
+            this.SenElementaryCountFano5.ReadOnly = true;
+            this.SenElementaryCountFano5.Size = new System.Drawing.Size(70, 26);
+            this.SenElementaryCountFano5.TabIndex = 93;
             // 
-            // textBox38
+            // entropyFano5Sen
             // 
-            this.textBox38.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox38.Location = new System.Drawing.Point(234, 595);
-            this.textBox38.Name = "textBox38";
-            this.textBox38.ReadOnly = true;
-            this.textBox38.Size = new System.Drawing.Size(70, 26);
-            this.textBox38.TabIndex = 94;
+            this.entropyFano5Sen.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyFano5Sen.Location = new System.Drawing.Point(234, 595);
+            this.entropyFano5Sen.Name = "entropyFano5Sen";
+            this.entropyFano5Sen.ReadOnly = true;
+            this.entropyFano5Sen.Size = new System.Drawing.Size(70, 26);
+            this.entropyFano5Sen.TabIndex = 94;
             // 
-            // textBox39
+            // InfoCountSyllablesFano5
             // 
-            this.textBox39.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox39.Location = new System.Drawing.Point(400, 658);
-            this.textBox39.Name = "textBox39";
-            this.textBox39.ReadOnly = true;
-            this.textBox39.Size = new System.Drawing.Size(70, 26);
-            this.textBox39.TabIndex = 89;
+            this.InfoCountSyllablesFano5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSyllablesFano5.Location = new System.Drawing.Point(400, 658);
+            this.InfoCountSyllablesFano5.Name = "InfoCountSyllablesFano5";
+            this.InfoCountSyllablesFano5.ReadOnly = true;
+            this.InfoCountSyllablesFano5.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSyllablesFano5.TabIndex = 89;
             // 
-            // textBox40
+            // SyllablElementaryCountFano5
             // 
-            this.textBox40.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox40.Location = new System.Drawing.Point(400, 627);
-            this.textBox40.Name = "textBox40";
-            this.textBox40.ReadOnly = true;
-            this.textBox40.Size = new System.Drawing.Size(70, 26);
-            this.textBox40.TabIndex = 90;
+            this.SyllablElementaryCountFano5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SyllablElementaryCountFano5.Location = new System.Drawing.Point(400, 627);
+            this.SyllablElementaryCountFano5.Name = "SyllablElementaryCountFano5";
+            this.SyllablElementaryCountFano5.ReadOnly = true;
+            this.SyllablElementaryCountFano5.Size = new System.Drawing.Size(70, 26);
+            this.SyllablElementaryCountFano5.TabIndex = 90;
             // 
-            // textBox41
+            // InfoCountLettersFano5
             // 
-            this.textBox41.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox41.Location = new System.Drawing.Point(486, 657);
-            this.textBox41.Name = "textBox41";
-            this.textBox41.ReadOnly = true;
-            this.textBox41.Size = new System.Drawing.Size(70, 26);
-            this.textBox41.TabIndex = 86;
+            this.InfoCountLettersFano5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountLettersFano5.Location = new System.Drawing.Point(486, 657);
+            this.InfoCountLettersFano5.Name = "InfoCountLettersFano5";
+            this.InfoCountLettersFano5.ReadOnly = true;
+            this.InfoCountLettersFano5.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountLettersFano5.TabIndex = 86;
             // 
-            // textBox42
+            // entropyFano5Syllables
             // 
-            this.textBox42.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox42.Location = new System.Drawing.Point(400, 595);
-            this.textBox42.Name = "textBox42";
-            this.textBox42.ReadOnly = true;
-            this.textBox42.Size = new System.Drawing.Size(70, 26);
-            this.textBox42.TabIndex = 91;
+            this.entropyFano5Syllables.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyFano5Syllables.Location = new System.Drawing.Point(400, 595);
+            this.entropyFano5Syllables.Name = "entropyFano5Syllables";
+            this.entropyFano5Syllables.ReadOnly = true;
+            this.entropyFano5Syllables.Size = new System.Drawing.Size(70, 26);
+            this.entropyFano5Syllables.TabIndex = 91;
             // 
-            // textBox43
+            // LettersElementaryCountFano5
             // 
-            this.textBox43.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox43.Location = new System.Drawing.Point(486, 627);
-            this.textBox43.Name = "textBox43";
-            this.textBox43.ReadOnly = true;
-            this.textBox43.Size = new System.Drawing.Size(70, 26);
-            this.textBox43.TabIndex = 87;
+            this.LettersElementaryCountFano5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LettersElementaryCountFano5.Location = new System.Drawing.Point(486, 627);
+            this.LettersElementaryCountFano5.Name = "LettersElementaryCountFano5";
+            this.LettersElementaryCountFano5.ReadOnly = true;
+            this.LettersElementaryCountFano5.Size = new System.Drawing.Size(70, 26);
+            this.LettersElementaryCountFano5.TabIndex = 87;
             // 
-            // textBox44
+            // entropy5FanoLetters
             // 
-            this.textBox44.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox44.Location = new System.Drawing.Point(486, 595);
-            this.textBox44.Name = "textBox44";
-            this.textBox44.ReadOnly = true;
-            this.textBox44.Size = new System.Drawing.Size(70, 26);
-            this.textBox44.TabIndex = 88;
+            this.entropy5FanoLetters.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropy5FanoLetters.Location = new System.Drawing.Point(486, 595);
+            this.entropy5FanoLetters.Name = "entropy5FanoLetters";
+            this.entropy5FanoLetters.ReadOnly = true;
+            this.entropy5FanoLetters.Size = new System.Drawing.Size(70, 26);
+            this.entropy5FanoLetters.TabIndex = 88;
             // 
             // label27
             // 
@@ -1058,76 +1043,6 @@
             this.label32.Size = new System.Drawing.Size(92, 20);
             this.label32.TabIndex = 100;
             this.label32.Text = "Энтропия";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label49.Location = new System.Drawing.Point(313, 349);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(170, 20);
-            this.label49.TabIndex = 189;
-            this.label49.Text = "кодирование 2 с. с.";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label50.Location = new System.Drawing.Point(313, 460);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(170, 20);
-            this.label50.TabIndex = 190;
-            this.label50.Text = "кодирование 3 с. с.";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label51.Location = new System.Drawing.Point(313, 575);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(170, 20);
-            this.label51.TabIndex = 191;
-            this.label51.Text = "кодирование 5 с. с.";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label52.Location = new System.Drawing.Point(1043, 351);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(324, 20);
-            this.label52.TabIndex = 192;
-            this.label52.Text = "кодирование предложениями текста";
-            // 
-            // label15
-            // 
-            this.label15.AutoSize = true;
-            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label15.Location = new System.Drawing.Point(1128, 684);
-            this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(194, 20);
-            this.label15.TabIndex = 240;
-            this.label15.Text = "кодирование буквами";
-            // 
-            // label16
-            // 
-            this.label16.AutoSize = true;
-            this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label16.Location = new System.Drawing.Point(1128, 572);
-            this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(194, 20);
-            this.label16.TabIndex = 239;
-            this.label16.Text = "кодирование слогами";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label17.Location = new System.Drawing.Point(1128, 460);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(196, 20);
-            this.label17.TabIndex = 238;
-            this.label17.Text = "кодирование словами";
             // 
             // textBox1
             // 
@@ -1565,266 +1480,266 @@
             this.textBox120.Size = new System.Drawing.Size(70, 26);
             this.textBox120.TabIndex = 296;
             // 
-            // textBox121
+            // InfoCountWHuf5
             // 
-            this.textBox121.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox121.Location = new System.Drawing.Point(705, 658);
-            this.textBox121.Name = "textBox121";
-            this.textBox121.ReadOnly = true;
-            this.textBox121.Size = new System.Drawing.Size(70, 26);
-            this.textBox121.TabIndex = 291;
+            this.InfoCountWHuf5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountWHuf5.Location = new System.Drawing.Point(705, 658);
+            this.InfoCountWHuf5.Name = "InfoCountWHuf5";
+            this.InfoCountWHuf5.ReadOnly = true;
+            this.InfoCountWHuf5.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountWHuf5.TabIndex = 291;
             // 
-            // textBox122
+            // WordsElementaryCountHuf5
             // 
-            this.textBox122.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox122.Location = new System.Drawing.Point(705, 627);
-            this.textBox122.Name = "textBox122";
-            this.textBox122.ReadOnly = true;
-            this.textBox122.Size = new System.Drawing.Size(70, 26);
-            this.textBox122.TabIndex = 292;
+            this.WordsElementaryCountHuf5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WordsElementaryCountHuf5.Location = new System.Drawing.Point(705, 627);
+            this.WordsElementaryCountHuf5.Name = "WordsElementaryCountHuf5";
+            this.WordsElementaryCountHuf5.ReadOnly = true;
+            this.WordsElementaryCountHuf5.Size = new System.Drawing.Size(70, 26);
+            this.WordsElementaryCountHuf5.TabIndex = 292;
             // 
-            // textBox123
+            // entropyHuf5W
             // 
-            this.textBox123.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox123.Location = new System.Drawing.Point(705, 595);
-            this.textBox123.Name = "textBox123";
-            this.textBox123.ReadOnly = true;
-            this.textBox123.Size = new System.Drawing.Size(70, 26);
-            this.textBox123.TabIndex = 293;
+            this.entropyHuf5W.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf5W.Location = new System.Drawing.Point(705, 595);
+            this.entropyHuf5W.Name = "entropyHuf5W";
+            this.entropyHuf5W.ReadOnly = true;
+            this.entropyHuf5W.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf5W.TabIndex = 293;
             // 
-            // textBox124
+            // InfoCountSenHuf5
             // 
-            this.textBox124.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox124.Location = new System.Drawing.Point(623, 659);
-            this.textBox124.Name = "textBox124";
-            this.textBox124.ReadOnly = true;
-            this.textBox124.Size = new System.Drawing.Size(70, 26);
-            this.textBox124.TabIndex = 288;
+            this.InfoCountSenHuf5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSenHuf5.Location = new System.Drawing.Point(623, 659);
+            this.InfoCountSenHuf5.Name = "InfoCountSenHuf5";
+            this.InfoCountSenHuf5.ReadOnly = true;
+            this.InfoCountSenHuf5.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSenHuf5.TabIndex = 288;
             // 
-            // textBox125
+            // SenElementaryCountHuf5
             // 
-            this.textBox125.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox125.Location = new System.Drawing.Point(623, 627);
-            this.textBox125.Name = "textBox125";
-            this.textBox125.ReadOnly = true;
-            this.textBox125.Size = new System.Drawing.Size(70, 26);
-            this.textBox125.TabIndex = 289;
+            this.SenElementaryCountHuf5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SenElementaryCountHuf5.Location = new System.Drawing.Point(623, 627);
+            this.SenElementaryCountHuf5.Name = "SenElementaryCountHuf5";
+            this.SenElementaryCountHuf5.ReadOnly = true;
+            this.SenElementaryCountHuf5.Size = new System.Drawing.Size(70, 26);
+            this.SenElementaryCountHuf5.TabIndex = 289;
             // 
-            // textBox126
+            // entropyHuf5Sen
             // 
-            this.textBox126.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox126.Location = new System.Drawing.Point(623, 595);
-            this.textBox126.Name = "textBox126";
-            this.textBox126.ReadOnly = true;
-            this.textBox126.Size = new System.Drawing.Size(70, 26);
-            this.textBox126.TabIndex = 290;
+            this.entropyHuf5Sen.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf5Sen.Location = new System.Drawing.Point(623, 595);
+            this.entropyHuf5Sen.Name = "entropyHuf5Sen";
+            this.entropyHuf5Sen.ReadOnly = true;
+            this.entropyHuf5Sen.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf5Sen.TabIndex = 290;
             // 
-            // textBox127
+            // InfoCountSyllablesHuf5
             // 
-            this.textBox127.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox127.Location = new System.Drawing.Point(790, 658);
-            this.textBox127.Name = "textBox127";
-            this.textBox127.ReadOnly = true;
-            this.textBox127.Size = new System.Drawing.Size(70, 26);
-            this.textBox127.TabIndex = 285;
+            this.InfoCountSyllablesHuf5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSyllablesHuf5.Location = new System.Drawing.Point(790, 658);
+            this.InfoCountSyllablesHuf5.Name = "InfoCountSyllablesHuf5";
+            this.InfoCountSyllablesHuf5.ReadOnly = true;
+            this.InfoCountSyllablesHuf5.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSyllablesHuf5.TabIndex = 285;
             // 
-            // textBox128
+            // SyllablElementaryCountHuf5
             // 
-            this.textBox128.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox128.Location = new System.Drawing.Point(790, 627);
-            this.textBox128.Name = "textBox128";
-            this.textBox128.ReadOnly = true;
-            this.textBox128.Size = new System.Drawing.Size(70, 26);
-            this.textBox128.TabIndex = 286;
+            this.SyllablElementaryCountHuf5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SyllablElementaryCountHuf5.Location = new System.Drawing.Point(790, 627);
+            this.SyllablElementaryCountHuf5.Name = "SyllablElementaryCountHuf5";
+            this.SyllablElementaryCountHuf5.ReadOnly = true;
+            this.SyllablElementaryCountHuf5.Size = new System.Drawing.Size(70, 26);
+            this.SyllablElementaryCountHuf5.TabIndex = 286;
             // 
-            // textBox129
+            // InfoCountLettersHuf5
             // 
-            this.textBox129.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox129.Location = new System.Drawing.Point(876, 657);
-            this.textBox129.Name = "textBox129";
-            this.textBox129.ReadOnly = true;
-            this.textBox129.Size = new System.Drawing.Size(70, 26);
-            this.textBox129.TabIndex = 282;
+            this.InfoCountLettersHuf5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountLettersHuf5.Location = new System.Drawing.Point(876, 657);
+            this.InfoCountLettersHuf5.Name = "InfoCountLettersHuf5";
+            this.InfoCountLettersHuf5.ReadOnly = true;
+            this.InfoCountLettersHuf5.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountLettersHuf5.TabIndex = 282;
             // 
-            // textBox130
+            // entropyHuf5Syllables
             // 
-            this.textBox130.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox130.Location = new System.Drawing.Point(790, 595);
-            this.textBox130.Name = "textBox130";
-            this.textBox130.ReadOnly = true;
-            this.textBox130.Size = new System.Drawing.Size(70, 26);
-            this.textBox130.TabIndex = 287;
+            this.entropyHuf5Syllables.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf5Syllables.Location = new System.Drawing.Point(790, 595);
+            this.entropyHuf5Syllables.Name = "entropyHuf5Syllables";
+            this.entropyHuf5Syllables.ReadOnly = true;
+            this.entropyHuf5Syllables.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf5Syllables.TabIndex = 287;
             // 
-            // textBox131
+            // LettersElementaryCountHuf5
             // 
-            this.textBox131.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox131.Location = new System.Drawing.Point(876, 627);
-            this.textBox131.Name = "textBox131";
-            this.textBox131.ReadOnly = true;
-            this.textBox131.Size = new System.Drawing.Size(70, 26);
-            this.textBox131.TabIndex = 283;
+            this.LettersElementaryCountHuf5.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LettersElementaryCountHuf5.Location = new System.Drawing.Point(876, 627);
+            this.LettersElementaryCountHuf5.Name = "LettersElementaryCountHuf5";
+            this.LettersElementaryCountHuf5.ReadOnly = true;
+            this.LettersElementaryCountHuf5.Size = new System.Drawing.Size(70, 26);
+            this.LettersElementaryCountHuf5.TabIndex = 283;
             // 
-            // textBox132
+            // entropyHuf5Letters
             // 
-            this.textBox132.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox132.Location = new System.Drawing.Point(876, 595);
-            this.textBox132.Name = "textBox132";
-            this.textBox132.ReadOnly = true;
-            this.textBox132.Size = new System.Drawing.Size(70, 26);
-            this.textBox132.TabIndex = 284;
+            this.entropyHuf5Letters.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf5Letters.Location = new System.Drawing.Point(876, 595);
+            this.entropyHuf5Letters.Name = "entropyHuf5Letters";
+            this.entropyHuf5Letters.ReadOnly = true;
+            this.entropyHuf5Letters.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf5Letters.TabIndex = 284;
             // 
-            // textBox133
+            // InfoCountWHuf3
             // 
-            this.textBox133.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox133.Location = new System.Drawing.Point(705, 546);
-            this.textBox133.Name = "textBox133";
-            this.textBox133.ReadOnly = true;
-            this.textBox133.Size = new System.Drawing.Size(70, 26);
-            this.textBox133.TabIndex = 279;
+            this.InfoCountWHuf3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountWHuf3.Location = new System.Drawing.Point(705, 546);
+            this.InfoCountWHuf3.Name = "InfoCountWHuf3";
+            this.InfoCountWHuf3.ReadOnly = true;
+            this.InfoCountWHuf3.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountWHuf3.TabIndex = 279;
             // 
-            // textBox134
+            // WordsElementaryCountHuf3
             // 
-            this.textBox134.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox134.Location = new System.Drawing.Point(705, 515);
-            this.textBox134.Name = "textBox134";
-            this.textBox134.ReadOnly = true;
-            this.textBox134.Size = new System.Drawing.Size(70, 26);
-            this.textBox134.TabIndex = 280;
+            this.WordsElementaryCountHuf3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WordsElementaryCountHuf3.Location = new System.Drawing.Point(705, 515);
+            this.WordsElementaryCountHuf3.Name = "WordsElementaryCountHuf3";
+            this.WordsElementaryCountHuf3.ReadOnly = true;
+            this.WordsElementaryCountHuf3.Size = new System.Drawing.Size(70, 26);
+            this.WordsElementaryCountHuf3.TabIndex = 280;
             // 
-            // textBox135
+            // entropyHuf3W
             // 
-            this.textBox135.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox135.Location = new System.Drawing.Point(705, 483);
-            this.textBox135.Name = "textBox135";
-            this.textBox135.ReadOnly = true;
-            this.textBox135.Size = new System.Drawing.Size(70, 26);
-            this.textBox135.TabIndex = 281;
+            this.entropyHuf3W.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf3W.Location = new System.Drawing.Point(705, 483);
+            this.entropyHuf3W.Name = "entropyHuf3W";
+            this.entropyHuf3W.ReadOnly = true;
+            this.entropyHuf3W.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf3W.TabIndex = 281;
             // 
-            // textBox136
+            // InfoCountSenHuf3
             // 
-            this.textBox136.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox136.Location = new System.Drawing.Point(623, 548);
-            this.textBox136.Name = "textBox136";
-            this.textBox136.ReadOnly = true;
-            this.textBox136.Size = new System.Drawing.Size(70, 26);
-            this.textBox136.TabIndex = 276;
+            this.InfoCountSenHuf3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSenHuf3.Location = new System.Drawing.Point(623, 548);
+            this.InfoCountSenHuf3.Name = "InfoCountSenHuf3";
+            this.InfoCountSenHuf3.ReadOnly = true;
+            this.InfoCountSenHuf3.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSenHuf3.TabIndex = 276;
             // 
-            // textBox137
+            // SenElementaryCountHuf3
             // 
-            this.textBox137.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox137.Location = new System.Drawing.Point(623, 516);
-            this.textBox137.Name = "textBox137";
-            this.textBox137.ReadOnly = true;
-            this.textBox137.Size = new System.Drawing.Size(70, 26);
-            this.textBox137.TabIndex = 277;
+            this.SenElementaryCountHuf3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SenElementaryCountHuf3.Location = new System.Drawing.Point(623, 516);
+            this.SenElementaryCountHuf3.Name = "SenElementaryCountHuf3";
+            this.SenElementaryCountHuf3.ReadOnly = true;
+            this.SenElementaryCountHuf3.Size = new System.Drawing.Size(70, 26);
+            this.SenElementaryCountHuf3.TabIndex = 277;
             // 
-            // textBox138
+            // entropyHuf3Sen
             // 
-            this.textBox138.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox138.Location = new System.Drawing.Point(623, 484);
-            this.textBox138.Name = "textBox138";
-            this.textBox138.ReadOnly = true;
-            this.textBox138.Size = new System.Drawing.Size(70, 26);
-            this.textBox138.TabIndex = 278;
+            this.entropyHuf3Sen.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf3Sen.Location = new System.Drawing.Point(623, 484);
+            this.entropyHuf3Sen.Name = "entropyHuf3Sen";
+            this.entropyHuf3Sen.ReadOnly = true;
+            this.entropyHuf3Sen.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf3Sen.TabIndex = 278;
             // 
-            // textBox139
+            // InfoCountSyllablesHuf3
             // 
-            this.textBox139.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox139.Location = new System.Drawing.Point(790, 546);
-            this.textBox139.Name = "textBox139";
-            this.textBox139.ReadOnly = true;
-            this.textBox139.Size = new System.Drawing.Size(70, 26);
-            this.textBox139.TabIndex = 273;
+            this.InfoCountSyllablesHuf3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSyllablesHuf3.Location = new System.Drawing.Point(790, 546);
+            this.InfoCountSyllablesHuf3.Name = "InfoCountSyllablesHuf3";
+            this.InfoCountSyllablesHuf3.ReadOnly = true;
+            this.InfoCountSyllablesHuf3.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSyllablesHuf3.TabIndex = 273;
             // 
-            // textBox140
+            // SyllablElementaryCountHuf3
             // 
-            this.textBox140.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox140.Location = new System.Drawing.Point(790, 515);
-            this.textBox140.Name = "textBox140";
-            this.textBox140.ReadOnly = true;
-            this.textBox140.Size = new System.Drawing.Size(70, 26);
-            this.textBox140.TabIndex = 274;
+            this.SyllablElementaryCountHuf3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SyllablElementaryCountHuf3.Location = new System.Drawing.Point(790, 515);
+            this.SyllablElementaryCountHuf3.Name = "SyllablElementaryCountHuf3";
+            this.SyllablElementaryCountHuf3.ReadOnly = true;
+            this.SyllablElementaryCountHuf3.Size = new System.Drawing.Size(70, 26);
+            this.SyllablElementaryCountHuf3.TabIndex = 274;
             // 
-            // textBox141
+            // InfoCountLettersHuf3
             // 
-            this.textBox141.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox141.Location = new System.Drawing.Point(876, 546);
-            this.textBox141.Name = "textBox141";
-            this.textBox141.ReadOnly = true;
-            this.textBox141.Size = new System.Drawing.Size(70, 26);
-            this.textBox141.TabIndex = 270;
+            this.InfoCountLettersHuf3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountLettersHuf3.Location = new System.Drawing.Point(876, 546);
+            this.InfoCountLettersHuf3.Name = "InfoCountLettersHuf3";
+            this.InfoCountLettersHuf3.ReadOnly = true;
+            this.InfoCountLettersHuf3.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountLettersHuf3.TabIndex = 270;
             // 
-            // textBox142
+            // entropyHuf3Syllables
             // 
-            this.textBox142.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox142.Location = new System.Drawing.Point(790, 483);
-            this.textBox142.Name = "textBox142";
-            this.textBox142.ReadOnly = true;
-            this.textBox142.Size = new System.Drawing.Size(70, 26);
-            this.textBox142.TabIndex = 275;
+            this.entropyHuf3Syllables.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf3Syllables.Location = new System.Drawing.Point(790, 483);
+            this.entropyHuf3Syllables.Name = "entropyHuf3Syllables";
+            this.entropyHuf3Syllables.ReadOnly = true;
+            this.entropyHuf3Syllables.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf3Syllables.TabIndex = 275;
             // 
-            // textBox143
+            // LettersElementaryCountHuf3
             // 
-            this.textBox143.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox143.Location = new System.Drawing.Point(876, 516);
-            this.textBox143.Name = "textBox143";
-            this.textBox143.ReadOnly = true;
-            this.textBox143.Size = new System.Drawing.Size(70, 26);
-            this.textBox143.TabIndex = 271;
+            this.LettersElementaryCountHuf3.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LettersElementaryCountHuf3.Location = new System.Drawing.Point(876, 516);
+            this.LettersElementaryCountHuf3.Name = "LettersElementaryCountHuf3";
+            this.LettersElementaryCountHuf3.ReadOnly = true;
+            this.LettersElementaryCountHuf3.Size = new System.Drawing.Size(70, 26);
+            this.LettersElementaryCountHuf3.TabIndex = 271;
             // 
-            // textBox144
+            // entropyHuf3Letters
             // 
-            this.textBox144.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox144.Location = new System.Drawing.Point(876, 484);
-            this.textBox144.Name = "textBox144";
-            this.textBox144.ReadOnly = true;
-            this.textBox144.Size = new System.Drawing.Size(70, 26);
-            this.textBox144.TabIndex = 272;
+            this.entropyHuf3Letters.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf3Letters.Location = new System.Drawing.Point(876, 484);
+            this.entropyHuf3Letters.Name = "entropyHuf3Letters";
+            this.entropyHuf3Letters.ReadOnly = true;
+            this.entropyHuf3Letters.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf3Letters.TabIndex = 272;
             // 
-            // textBox145
+            // InfoCountWHuf2
             // 
-            this.textBox145.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox145.Location = new System.Drawing.Point(705, 435);
-            this.textBox145.Name = "textBox145";
-            this.textBox145.ReadOnly = true;
-            this.textBox145.Size = new System.Drawing.Size(70, 26);
-            this.textBox145.TabIndex = 269;
+            this.InfoCountWHuf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountWHuf2.Location = new System.Drawing.Point(705, 435);
+            this.InfoCountWHuf2.Name = "InfoCountWHuf2";
+            this.InfoCountWHuf2.ReadOnly = true;
+            this.InfoCountWHuf2.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountWHuf2.TabIndex = 269;
             // 
-            // textBox146
+            // WordsElementaryCountHuf2
             // 
-            this.textBox146.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox146.Location = new System.Drawing.Point(705, 405);
-            this.textBox146.Name = "textBox146";
-            this.textBox146.ReadOnly = true;
-            this.textBox146.Size = new System.Drawing.Size(70, 26);
-            this.textBox146.TabIndex = 268;
+            this.WordsElementaryCountHuf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.WordsElementaryCountHuf2.Location = new System.Drawing.Point(705, 405);
+            this.WordsElementaryCountHuf2.Name = "WordsElementaryCountHuf2";
+            this.WordsElementaryCountHuf2.ReadOnly = true;
+            this.WordsElementaryCountHuf2.Size = new System.Drawing.Size(70, 26);
+            this.WordsElementaryCountHuf2.TabIndex = 268;
             // 
-            // textBox147
+            // entropyHuf2W
             // 
-            this.textBox147.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox147.Location = new System.Drawing.Point(705, 373);
-            this.textBox147.Name = "textBox147";
-            this.textBox147.ReadOnly = true;
-            this.textBox147.Size = new System.Drawing.Size(70, 26);
-            this.textBox147.TabIndex = 267;
+            this.entropyHuf2W.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf2W.Location = new System.Drawing.Point(705, 373);
+            this.entropyHuf2W.Name = "entropyHuf2W";
+            this.entropyHuf2W.ReadOnly = true;
+            this.entropyHuf2W.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf2W.TabIndex = 267;
             // 
-            // textBox148
+            // CountUnicWordsHufTextbox
             // 
-            this.textBox148.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox148.Location = new System.Drawing.Point(705, 322);
-            this.textBox148.Name = "textBox148";
-            this.textBox148.ReadOnly = true;
-            this.textBox148.Size = new System.Drawing.Size(70, 26);
-            this.textBox148.TabIndex = 266;
+            this.CountUnicWordsHufTextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CountUnicWordsHufTextbox.Location = new System.Drawing.Point(705, 322);
+            this.CountUnicWordsHufTextbox.Name = "CountUnicWordsHufTextbox";
+            this.CountUnicWordsHufTextbox.ReadOnly = true;
+            this.CountUnicWordsHufTextbox.Size = new System.Drawing.Size(70, 26);
+            this.CountUnicWordsHufTextbox.TabIndex = 266;
             // 
-            // textBox149
+            // CountLettersHufTextbox
             // 
-            this.textBox149.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox149.Location = new System.Drawing.Point(876, 290);
-            this.textBox149.Name = "textBox149";
-            this.textBox149.ReadOnly = true;
-            this.textBox149.Size = new System.Drawing.Size(70, 26);
-            this.textBox149.TabIndex = 265;
+            this.CountLettersHufTextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CountLettersHufTextbox.Location = new System.Drawing.Point(876, 290);
+            this.CountLettersHufTextbox.Name = "CountLettersHufTextbox";
+            this.CountLettersHufTextbox.ReadOnly = true;
+            this.CountLettersHufTextbox.Size = new System.Drawing.Size(70, 26);
+            this.CountLettersHufTextbox.TabIndex = 265;
             // 
             // label44
             // 
@@ -1836,50 +1751,50 @@
             this.label44.TabIndex = 264;
             this.label44.Text = "Слова";
             // 
-            // textBox150
+            // InfoCountSenHuf2
             // 
-            this.textBox150.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox150.Location = new System.Drawing.Point(623, 435);
-            this.textBox150.Name = "textBox150";
-            this.textBox150.ReadOnly = true;
-            this.textBox150.Size = new System.Drawing.Size(70, 26);
-            this.textBox150.TabIndex = 263;
+            this.InfoCountSenHuf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSenHuf2.Location = new System.Drawing.Point(623, 435);
+            this.InfoCountSenHuf2.Name = "InfoCountSenHuf2";
+            this.InfoCountSenHuf2.ReadOnly = true;
+            this.InfoCountSenHuf2.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSenHuf2.TabIndex = 263;
             // 
-            // textBox151
+            // SenElementaryCountHuf2
             // 
-            this.textBox151.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox151.Location = new System.Drawing.Point(623, 404);
-            this.textBox151.Name = "textBox151";
-            this.textBox151.ReadOnly = true;
-            this.textBox151.Size = new System.Drawing.Size(70, 26);
-            this.textBox151.TabIndex = 262;
+            this.SenElementaryCountHuf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SenElementaryCountHuf2.Location = new System.Drawing.Point(623, 404);
+            this.SenElementaryCountHuf2.Name = "SenElementaryCountHuf2";
+            this.SenElementaryCountHuf2.ReadOnly = true;
+            this.SenElementaryCountHuf2.Size = new System.Drawing.Size(70, 26);
+            this.SenElementaryCountHuf2.TabIndex = 262;
             // 
-            // textBox152
+            // entropyHuf2Sen
             // 
-            this.textBox152.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox152.Location = new System.Drawing.Point(623, 372);
-            this.textBox152.Name = "textBox152";
-            this.textBox152.ReadOnly = true;
-            this.textBox152.Size = new System.Drawing.Size(70, 26);
-            this.textBox152.TabIndex = 261;
+            this.entropyHuf2Sen.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf2Sen.Location = new System.Drawing.Point(623, 372);
+            this.entropyHuf2Sen.Name = "entropyHuf2Sen";
+            this.entropyHuf2Sen.ReadOnly = true;
+            this.entropyHuf2Sen.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf2Sen.TabIndex = 261;
             // 
-            // textBox153
+            // CountUnicSenHufTextbox
             // 
-            this.textBox153.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox153.Location = new System.Drawing.Point(623, 321);
-            this.textBox153.Name = "textBox153";
-            this.textBox153.ReadOnly = true;
-            this.textBox153.Size = new System.Drawing.Size(70, 26);
-            this.textBox153.TabIndex = 259;
+            this.CountUnicSenHufTextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CountUnicSenHufTextbox.Location = new System.Drawing.Point(623, 321);
+            this.CountUnicSenHufTextbox.Name = "CountUnicSenHufTextbox";
+            this.CountUnicSenHufTextbox.ReadOnly = true;
+            this.CountUnicSenHufTextbox.Size = new System.Drawing.Size(70, 26);
+            this.CountUnicSenHufTextbox.TabIndex = 259;
             // 
-            // textBox154
+            // CountWordsHuffmanTextbox
             // 
-            this.textBox154.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox154.Location = new System.Drawing.Point(705, 290);
-            this.textBox154.Name = "textBox154";
-            this.textBox154.ReadOnly = true;
-            this.textBox154.Size = new System.Drawing.Size(70, 26);
-            this.textBox154.TabIndex = 260;
+            this.CountWordsHuffmanTextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CountWordsHuffmanTextbox.Location = new System.Drawing.Point(705, 290);
+            this.CountWordsHuffmanTextbox.Name = "CountWordsHuffmanTextbox";
+            this.CountWordsHuffmanTextbox.ReadOnly = true;
+            this.CountWordsHuffmanTextbox.Size = new System.Drawing.Size(70, 26);
+            this.CountWordsHuffmanTextbox.TabIndex = 260;
             // 
             // label45
             // 
@@ -1891,97 +1806,97 @@
             this.label45.TabIndex = 258;
             this.label45.Text = "Предложения";
             // 
-            // textBox155
+            // InfoCountSyllablesHuf2
             // 
-            this.textBox155.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox155.Location = new System.Drawing.Point(790, 435);
-            this.textBox155.Name = "textBox155";
-            this.textBox155.ReadOnly = true;
-            this.textBox155.Size = new System.Drawing.Size(70, 26);
-            this.textBox155.TabIndex = 257;
+            this.InfoCountSyllablesHuf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountSyllablesHuf2.Location = new System.Drawing.Point(790, 435);
+            this.InfoCountSyllablesHuf2.Name = "InfoCountSyllablesHuf2";
+            this.InfoCountSyllablesHuf2.ReadOnly = true;
+            this.InfoCountSyllablesHuf2.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountSyllablesHuf2.TabIndex = 257;
             // 
-            // textBox156
+            // SyllablElementaryCountHuf2
             // 
-            this.textBox156.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox156.Location = new System.Drawing.Point(790, 405);
-            this.textBox156.Name = "textBox156";
-            this.textBox156.ReadOnly = true;
-            this.textBox156.Size = new System.Drawing.Size(70, 26);
-            this.textBox156.TabIndex = 256;
+            this.SyllablElementaryCountHuf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.SyllablElementaryCountHuf2.Location = new System.Drawing.Point(790, 405);
+            this.SyllablElementaryCountHuf2.Name = "SyllablElementaryCountHuf2";
+            this.SyllablElementaryCountHuf2.ReadOnly = true;
+            this.SyllablElementaryCountHuf2.Size = new System.Drawing.Size(70, 26);
+            this.SyllablElementaryCountHuf2.TabIndex = 256;
             // 
-            // textBox157
+            // InfoCountLettersHuf2
             // 
-            this.textBox157.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox157.Location = new System.Drawing.Point(876, 435);
-            this.textBox157.Name = "textBox157";
-            this.textBox157.ReadOnly = true;
-            this.textBox157.Size = new System.Drawing.Size(70, 26);
-            this.textBox157.TabIndex = 254;
+            this.InfoCountLettersHuf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.InfoCountLettersHuf2.Location = new System.Drawing.Point(876, 435);
+            this.InfoCountLettersHuf2.Name = "InfoCountLettersHuf2";
+            this.InfoCountLettersHuf2.ReadOnly = true;
+            this.InfoCountLettersHuf2.Size = new System.Drawing.Size(70, 26);
+            this.InfoCountLettersHuf2.TabIndex = 254;
             // 
-            // textBox158
+            // entropyHuf2Syllables
             // 
-            this.textBox158.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox158.Location = new System.Drawing.Point(790, 373);
-            this.textBox158.Name = "textBox158";
-            this.textBox158.ReadOnly = true;
-            this.textBox158.Size = new System.Drawing.Size(70, 26);
-            this.textBox158.TabIndex = 255;
+            this.entropyHuf2Syllables.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf2Syllables.Location = new System.Drawing.Point(790, 373);
+            this.entropyHuf2Syllables.Name = "entropyHuf2Syllables";
+            this.entropyHuf2Syllables.ReadOnly = true;
+            this.entropyHuf2Syllables.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf2Syllables.TabIndex = 255;
             // 
-            // textBox159
+            // LettersElementaryCountHuf2
             // 
-            this.textBox159.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox159.Location = new System.Drawing.Point(876, 405);
-            this.textBox159.Name = "textBox159";
-            this.textBox159.ReadOnly = true;
-            this.textBox159.Size = new System.Drawing.Size(70, 26);
-            this.textBox159.TabIndex = 253;
+            this.LettersElementaryCountHuf2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.LettersElementaryCountHuf2.Location = new System.Drawing.Point(876, 405);
+            this.LettersElementaryCountHuf2.Name = "LettersElementaryCountHuf2";
+            this.LettersElementaryCountHuf2.ReadOnly = true;
+            this.LettersElementaryCountHuf2.Size = new System.Drawing.Size(70, 26);
+            this.LettersElementaryCountHuf2.TabIndex = 253;
             // 
-            // textBox160
+            // entropyHuf2Letters
             // 
-            this.textBox160.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox160.Location = new System.Drawing.Point(876, 373);
-            this.textBox160.Name = "textBox160";
-            this.textBox160.ReadOnly = true;
-            this.textBox160.Size = new System.Drawing.Size(70, 26);
-            this.textBox160.TabIndex = 252;
+            this.entropyHuf2Letters.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.entropyHuf2Letters.Location = new System.Drawing.Point(876, 373);
+            this.entropyHuf2Letters.Name = "entropyHuf2Letters";
+            this.entropyHuf2Letters.ReadOnly = true;
+            this.entropyHuf2Letters.Size = new System.Drawing.Size(70, 26);
+            this.entropyHuf2Letters.TabIndex = 252;
             // 
-            // textBox161
+            // CountUnicSyllablesHufTextbox
             // 
-            this.textBox161.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox161.Location = new System.Drawing.Point(790, 322);
-            this.textBox161.Name = "textBox161";
-            this.textBox161.ReadOnly = true;
-            this.textBox161.Size = new System.Drawing.Size(70, 26);
-            this.textBox161.TabIndex = 251;
+            this.CountUnicSyllablesHufTextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CountUnicSyllablesHufTextbox.Location = new System.Drawing.Point(790, 322);
+            this.CountUnicSyllablesHufTextbox.Name = "CountUnicSyllablesHufTextbox";
+            this.CountUnicSyllablesHufTextbox.ReadOnly = true;
+            this.CountUnicSyllablesHufTextbox.Size = new System.Drawing.Size(70, 26);
+            this.CountUnicSyllablesHufTextbox.TabIndex = 251;
             // 
-            // textBox162
+            // CountSentencesHuffmanTextbox
             // 
-            this.textBox162.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox162.Location = new System.Drawing.Point(623, 291);
-            this.textBox162.Name = "textBox162";
-            this.textBox162.ReadOnly = true;
-            this.textBox162.Size = new System.Drawing.Size(70, 26);
-            this.textBox162.TabIndex = 250;
+            this.CountSentencesHuffmanTextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CountSentencesHuffmanTextbox.Location = new System.Drawing.Point(623, 291);
+            this.CountSentencesHuffmanTextbox.Name = "CountSentencesHuffmanTextbox";
+            this.CountSentencesHuffmanTextbox.ReadOnly = true;
+            this.CountSentencesHuffmanTextbox.Size = new System.Drawing.Size(70, 26);
+            this.CountSentencesHuffmanTextbox.TabIndex = 250;
             // 
-            // textBox163
+            // CountUnicLettersHufTextbox
             // 
-            this.textBox163.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox163.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox163.Location = new System.Drawing.Point(876, 322);
-            this.textBox163.Name = "textBox163";
-            this.textBox163.ReadOnly = true;
-            this.textBox163.Size = new System.Drawing.Size(70, 26);
-            this.textBox163.TabIndex = 249;
+            this.CountUnicLettersHufTextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CountUnicLettersHufTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.CountUnicLettersHufTextbox.Location = new System.Drawing.Point(876, 322);
+            this.CountUnicLettersHufTextbox.Name = "CountUnicLettersHufTextbox";
+            this.CountUnicLettersHufTextbox.ReadOnly = true;
+            this.CountUnicLettersHufTextbox.Size = new System.Drawing.Size(70, 26);
+            this.CountUnicLettersHufTextbox.TabIndex = 249;
             // 
-            // textBox164
+            // CountSyllsblesHuffmanTextbox
             // 
-            this.textBox164.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.textBox164.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.textBox164.Location = new System.Drawing.Point(790, 290);
-            this.textBox164.Name = "textBox164";
-            this.textBox164.ReadOnly = true;
-            this.textBox164.Size = new System.Drawing.Size(70, 26);
-            this.textBox164.TabIndex = 248;
+            this.CountSyllsblesHuffmanTextbox.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.CountSyllsblesHuffmanTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.CountSyllsblesHuffmanTextbox.Location = new System.Drawing.Point(790, 290);
+            this.CountSyllsblesHuffmanTextbox.Name = "CountSyllsblesHuffmanTextbox";
+            this.CountSyllsblesHuffmanTextbox.ReadOnly = true;
+            this.CountSyllsblesHuffmanTextbox.Size = new System.Drawing.Size(70, 26);
+            this.CountSyllsblesHuffmanTextbox.TabIndex = 248;
             // 
             // label46
             // 
@@ -2035,35 +1950,202 @@
             this.label19.TabIndex = 356;
             this.label19.Text = "Расчет при код. лингв. ед.";
             // 
-            // label20
+            // Fanofor2Check
             // 
-            this.label20.AutoSize = true;
-            this.label20.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label20.Location = new System.Drawing.Point(701, 349);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(170, 20);
-            this.label20.TabIndex = 357;
-            this.label20.Text = "кодирование 2 с. с.";
+            this.Fanofor2Check.AutoSize = true;
+            this.Fanofor2Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Fanofor2Check.Location = new System.Drawing.Point(310, 348);
+            this.Fanofor2Check.Name = "Fanofor2Check";
+            this.Fanofor2Check.Size = new System.Drawing.Size(205, 24);
+            this.Fanofor2Check.TabIndex = 360;
+            this.Fanofor2Check.Text = "кодирование 2 с.с.";
+            this.Fanofor2Check.UseVisualStyleBackColor = true;
             // 
-            // label21
+            // Huffmanfor2Check
             // 
-            this.label21.AutoSize = true;
-            this.label21.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label21.Location = new System.Drawing.Point(701, 462);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(170, 20);
-            this.label21.TabIndex = 358;
-            this.label21.Text = "кодирование 3 с. с.";
+            this.Huffmanfor2Check.AutoSize = true;
+            this.Huffmanfor2Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Huffmanfor2Check.Location = new System.Drawing.Point(684, 350);
+            this.Huffmanfor2Check.Name = "Huffmanfor2Check";
+            this.Huffmanfor2Check.Size = new System.Drawing.Size(205, 24);
+            this.Huffmanfor2Check.TabIndex = 361;
+            this.Huffmanfor2Check.Text = "кодирование 2 с.с.";
+            this.Huffmanfor2Check.UseVisualStyleBackColor = true;
             // 
-            // label22
+            // Fanofor3Check
             // 
-            this.label22.AutoSize = true;
-            this.label22.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.label22.Location = new System.Drawing.Point(701, 572);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(170, 20);
-            this.label22.TabIndex = 359;
-            this.label22.Text = "кодирование 5 с. с.";
+            this.Fanofor3Check.AutoSize = true;
+            this.Fanofor3Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Fanofor3Check.Location = new System.Drawing.Point(310, 460);
+            this.Fanofor3Check.Name = "Fanofor3Check";
+            this.Fanofor3Check.Size = new System.Drawing.Size(205, 24);
+            this.Fanofor3Check.TabIndex = 362;
+            this.Fanofor3Check.Text = "кодирование 3 с.с.";
+            this.Fanofor3Check.UseVisualStyleBackColor = true;
+            // 
+            // Huffmanfor3Check
+            // 
+            this.Huffmanfor3Check.AutoSize = true;
+            this.Huffmanfor3Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Huffmanfor3Check.Location = new System.Drawing.Point(684, 460);
+            this.Huffmanfor3Check.Name = "Huffmanfor3Check";
+            this.Huffmanfor3Check.Size = new System.Drawing.Size(205, 24);
+            this.Huffmanfor3Check.TabIndex = 363;
+            this.Huffmanfor3Check.Text = "кодирование 3 с.с.";
+            this.Huffmanfor3Check.UseVisualStyleBackColor = true;
+            // 
+            // Fanofor5Check
+            // 
+            this.Fanofor5Check.AutoSize = true;
+            this.Fanofor5Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Fanofor5Check.Location = new System.Drawing.Point(310, 572);
+            this.Fanofor5Check.Name = "Fanofor5Check";
+            this.Fanofor5Check.Size = new System.Drawing.Size(205, 24);
+            this.Fanofor5Check.TabIndex = 364;
+            this.Fanofor5Check.Text = "кодирование 5 с.с.";
+            this.Fanofor5Check.UseVisualStyleBackColor = true;
+            // 
+            // Huffmanfor5Check
+            // 
+            this.Huffmanfor5Check.AutoSize = true;
+            this.Huffmanfor5Check.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.Huffmanfor5Check.Location = new System.Drawing.Point(684, 572);
+            this.Huffmanfor5Check.Name = "Huffmanfor5Check";
+            this.Huffmanfor5Check.Size = new System.Drawing.Size(205, 24);
+            this.Huffmanfor5Check.TabIndex = 365;
+            this.Huffmanfor5Check.Text = "кодирование 5 с.с.";
+            this.Huffmanfor5Check.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxforSen
+            // 
+            this.checkBoxforSen.AutoSize = true;
+            this.checkBoxforSen.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxforSen.Location = new System.Drawing.Point(1060, 348);
+            this.checkBoxforSen.Name = "checkBoxforSen";
+            this.checkBoxforSen.Size = new System.Drawing.Size(378, 24);
+            this.checkBoxforSen.TabIndex = 366;
+            this.checkBoxforSen.Text = "кодирование предложениями текста";
+            this.checkBoxforSen.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxforWords
+            // 
+            this.checkBoxforWords.AutoSize = true;
+            this.checkBoxforWords.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxforWords.Location = new System.Drawing.Point(1100, 460);
+            this.checkBoxforWords.Name = "checkBoxforWords";
+            this.checkBoxforWords.Size = new System.Drawing.Size(237, 24);
+            this.checkBoxforWords.TabIndex = 367;
+            this.checkBoxforWords.Text = "кодирование словами";
+            this.checkBoxforWords.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxforSyllables
+            // 
+            this.checkBoxforSyllables.AutoSize = true;
+            this.checkBoxforSyllables.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxforSyllables.Location = new System.Drawing.Point(1100, 572);
+            this.checkBoxforSyllables.Name = "checkBoxforSyllables";
+            this.checkBoxforSyllables.Size = new System.Drawing.Size(235, 24);
+            this.checkBoxforSyllables.TabIndex = 368;
+            this.checkBoxforSyllables.Text = "кодирование слогами";
+            this.checkBoxforSyllables.UseVisualStyleBackColor = true;
+            // 
+            // checkBoxforLetters
+            // 
+            this.checkBoxforLetters.AutoSize = true;
+            this.checkBoxforLetters.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.checkBoxforLetters.Location = new System.Drawing.Point(1100, 684);
+            this.checkBoxforLetters.Name = "checkBoxforLetters";
+            this.checkBoxforLetters.Size = new System.Drawing.Size(235, 24);
+            this.checkBoxforLetters.TabIndex = 369;
+            this.checkBoxforLetters.Text = "кодирование буквами";
+            this.checkBoxforLetters.UseVisualStyleBackColor = true;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.label15.Location = new System.Drawing.Point(613, 1);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(399, 32);
+            this.label15.TabIndex = 373;
+            this.label15.Text = "Введите имя пользователя";
+            // 
+            // textBox73
+            // 
+            this.textBox73.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.textBox73.Location = new System.Drawing.Point(579, 46);
+            this.textBox73.Name = "textBox73";
+            this.textBox73.Size = new System.Drawing.Size(393, 26);
+            this.textBox73.TabIndex = 374;
+            // 
+            // resultTextBox
+            // 
+            this.resultTextBox.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.resultTextBox.Location = new System.Drawing.Point(1453, 202);
+            this.resultTextBox.Multiline = true;
+            this.resultTextBox.Name = "resultTextBox";
+            this.resultTextBox.ReadOnly = true;
+            this.resultTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.resultTextBox.Size = new System.Drawing.Size(360, 115);
+            this.resultTextBox.TabIndex = 2;
+            this.resultTextBox.Visible = false;
+            // 
+            // allFano
+            // 
+            this.allFano.AutoSize = true;
+            this.allFano.Location = new System.Drawing.Point(315, 165);
+            this.allFano.Name = "allFano";
+            this.allFano.Size = new System.Drawing.Size(218, 64);
+            this.allFano.TabIndex = 375;
+            this.allFano.Text = "Выбрать все способы\r\nкодирования данным \r\nметодом";
+            this.allFano.UseVisualStyleBackColor = true;
+            this.allFano.CheckedChanged += new System.EventHandler(this.checkBox13_CheckedChanged);
+            // 
+            // allHuffman
+            // 
+            this.allHuffman.AutoSize = true;
+            this.allHuffman.Location = new System.Drawing.Point(671, 165);
+            this.allHuffman.Name = "allHuffman";
+            this.allHuffman.Size = new System.Drawing.Size(218, 64);
+            this.allHuffman.TabIndex = 376;
+            this.allHuffman.Text = "Выбрать все способы\r\nкодирования данным \r\nметодом";
+            this.allHuffman.UseVisualStyleBackColor = true;
+            this.allHuffman.CheckedChanged += new System.EventHandler(this.checkBox14_CheckedChanged);
+            // 
+            // allLec
+            // 
+            this.allLec.AutoSize = true;
+            this.allLec.Location = new System.Drawing.Point(1100, 165);
+            this.allLec.Name = "allLec";
+            this.allLec.Size = new System.Drawing.Size(218, 64);
+            this.allLec.TabIndex = 377;
+            this.allLec.Text = "Выбрать все способы\r\nкодирования данным \r\nметодом";
+            this.allLec.UseVisualStyleBackColor = true;
+            this.allLec.CheckedChanged += new System.EventHandler(this.checkBox15_CheckedChanged);
+            // 
+            // all
+            // 
+            this.all.AutoSize = true;
+            this.all.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, ((System.Drawing.FontStyle)(((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic) 
+                | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.all.Location = new System.Drawing.Point(533, 130);
+            this.all.Name = "all";
+            this.all.Size = new System.Drawing.Size(560, 24);
+            this.all.TabIndex = 378;
+            this.all.Text = "произвести полный расчет (все варианты кодирования)";
+            this.all.UseVisualStyleBackColor = true;
+            this.all.CheckedChanged += new System.EventHandler(this.checkBox11_CheckedChanged);
+            // 
+            // needGrafic
+            // 
+            this.needGrafic.AutoSize = true;
+            this.needGrafic.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.needGrafic.Location = new System.Drawing.Point(554, 90);
+            this.needGrafic.Name = "needGrafic";
+            this.needGrafic.Size = new System.Drawing.Size(525, 24);
+            this.needGrafic.TabIndex = 379;
+            this.needGrafic.Text = "построить графики по выбранным способам кодирования";
+            this.needGrafic.UseVisualStyleBackColor = true;
             // 
             // AppForm
             // 
@@ -2071,9 +2153,23 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Window;
             this.ClientSize = new System.Drawing.Size(1924, 807);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
+            this.Controls.Add(this.needGrafic);
+            this.Controls.Add(this.all);
+            this.Controls.Add(this.allLec);
+            this.Controls.Add(this.allHuffman);
+            this.Controls.Add(this.allFano);
+            this.Controls.Add(this.textBox73);
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.checkBoxforLetters);
+            this.Controls.Add(this.checkBoxforSyllables);
+            this.Controls.Add(this.checkBoxforWords);
+            this.Controls.Add(this.checkBoxforSen);
+            this.Controls.Add(this.Huffmanfor5Check);
+            this.Controls.Add(this.Fanofor5Check);
+            this.Controls.Add(this.Huffmanfor3Check);
+            this.Controls.Add(this.Fanofor3Check);
+            this.Controls.Add(this.Huffmanfor2Check);
+            this.Controls.Add(this.Fanofor2Check);
             this.Controls.Add(this.label19);
             this.Controls.Add(this.label18);
             this.Controls.Add(this.label48);
@@ -2089,57 +2185,54 @@
             this.Controls.Add(this.textBox118);
             this.Controls.Add(this.textBox119);
             this.Controls.Add(this.textBox120);
-            this.Controls.Add(this.textBox121);
-            this.Controls.Add(this.textBox122);
-            this.Controls.Add(this.textBox123);
-            this.Controls.Add(this.textBox124);
-            this.Controls.Add(this.textBox125);
-            this.Controls.Add(this.textBox126);
-            this.Controls.Add(this.textBox127);
-            this.Controls.Add(this.textBox128);
-            this.Controls.Add(this.textBox129);
-            this.Controls.Add(this.textBox130);
-            this.Controls.Add(this.textBox131);
-            this.Controls.Add(this.textBox132);
-            this.Controls.Add(this.textBox133);
-            this.Controls.Add(this.textBox134);
-            this.Controls.Add(this.textBox135);
-            this.Controls.Add(this.textBox136);
-            this.Controls.Add(this.textBox137);
-            this.Controls.Add(this.textBox138);
-            this.Controls.Add(this.textBox139);
-            this.Controls.Add(this.textBox140);
-            this.Controls.Add(this.textBox141);
-            this.Controls.Add(this.textBox142);
-            this.Controls.Add(this.textBox143);
-            this.Controls.Add(this.textBox144);
-            this.Controls.Add(this.textBox145);
-            this.Controls.Add(this.textBox146);
-            this.Controls.Add(this.textBox147);
-            this.Controls.Add(this.textBox148);
-            this.Controls.Add(this.textBox149);
+            this.Controls.Add(this.InfoCountWHuf5);
+            this.Controls.Add(this.WordsElementaryCountHuf5);
+            this.Controls.Add(this.entropyHuf5W);
+            this.Controls.Add(this.InfoCountSenHuf5);
+            this.Controls.Add(this.SenElementaryCountHuf5);
+            this.Controls.Add(this.entropyHuf5Sen);
+            this.Controls.Add(this.InfoCountSyllablesHuf5);
+            this.Controls.Add(this.SyllablElementaryCountHuf5);
+            this.Controls.Add(this.InfoCountLettersHuf5);
+            this.Controls.Add(this.entropyHuf5Syllables);
+            this.Controls.Add(this.LettersElementaryCountHuf5);
+            this.Controls.Add(this.entropyHuf5Letters);
+            this.Controls.Add(this.InfoCountWHuf3);
+            this.Controls.Add(this.WordsElementaryCountHuf3);
+            this.Controls.Add(this.entropyHuf3W);
+            this.Controls.Add(this.InfoCountSenHuf3);
+            this.Controls.Add(this.SenElementaryCountHuf3);
+            this.Controls.Add(this.entropyHuf3Sen);
+            this.Controls.Add(this.InfoCountSyllablesHuf3);
+            this.Controls.Add(this.SyllablElementaryCountHuf3);
+            this.Controls.Add(this.InfoCountLettersHuf3);
+            this.Controls.Add(this.entropyHuf3Syllables);
+            this.Controls.Add(this.LettersElementaryCountHuf3);
+            this.Controls.Add(this.entropyHuf3Letters);
+            this.Controls.Add(this.InfoCountWHuf2);
+            this.Controls.Add(this.WordsElementaryCountHuf2);
+            this.Controls.Add(this.entropyHuf2W);
+            this.Controls.Add(this.CountUnicWordsHufTextbox);
+            this.Controls.Add(this.CountLettersHufTextbox);
             this.Controls.Add(this.label44);
-            this.Controls.Add(this.textBox150);
-            this.Controls.Add(this.textBox151);
-            this.Controls.Add(this.textBox152);
-            this.Controls.Add(this.textBox153);
-            this.Controls.Add(this.textBox154);
+            this.Controls.Add(this.InfoCountSenHuf2);
+            this.Controls.Add(this.SenElementaryCountHuf2);
+            this.Controls.Add(this.entropyHuf2Sen);
+            this.Controls.Add(this.CountUnicSenHufTextbox);
+            this.Controls.Add(this.CountWordsHuffmanTextbox);
             this.Controls.Add(this.label45);
-            this.Controls.Add(this.textBox155);
-            this.Controls.Add(this.textBox156);
-            this.Controls.Add(this.textBox157);
-            this.Controls.Add(this.textBox158);
-            this.Controls.Add(this.textBox159);
-            this.Controls.Add(this.textBox160);
-            this.Controls.Add(this.textBox161);
-            this.Controls.Add(this.textBox162);
-            this.Controls.Add(this.textBox163);
-            this.Controls.Add(this.textBox164);
+            this.Controls.Add(this.InfoCountSyllablesHuf2);
+            this.Controls.Add(this.SyllablElementaryCountHuf2);
+            this.Controls.Add(this.InfoCountLettersHuf2);
+            this.Controls.Add(this.entropyHuf2Syllables);
+            this.Controls.Add(this.LettersElementaryCountHuf2);
+            this.Controls.Add(this.entropyHuf2Letters);
+            this.Controls.Add(this.CountUnicSyllablesHufTextbox);
+            this.Controls.Add(this.CountSentencesHuffmanTextbox);
+            this.Controls.Add(this.CountUnicLettersHufTextbox);
+            this.Controls.Add(this.CountSyllsblesHuffmanTextbox);
             this.Controls.Add(this.label46);
             this.Controls.Add(this.label47);
-            this.Controls.Add(this.label15);
-            this.Controls.Add(this.label16);
-            this.Controls.Add(this.label17);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox3);
@@ -2176,10 +2269,6 @@
             this.Controls.Add(this.textBox70);
             this.Controls.Add(this.textBox71);
             this.Controls.Add(this.textBox72);
-            this.Controls.Add(this.label52);
-            this.Controls.Add(this.label51);
-            this.Controls.Add(this.label50);
-            this.Controls.Add(this.label49);
             this.Controls.Add(this.textBox45);
             this.Controls.Add(this.textBox46);
             this.Controls.Add(this.textBox47);
@@ -2195,33 +2284,33 @@
             this.Controls.Add(this.label30);
             this.Controls.Add(this.label31);
             this.Controls.Add(this.label32);
-            this.Controls.Add(this.textBox33);
-            this.Controls.Add(this.textBox34);
-            this.Controls.Add(this.textBox35);
-            this.Controls.Add(this.textBox36);
-            this.Controls.Add(this.textBox37);
-            this.Controls.Add(this.textBox38);
-            this.Controls.Add(this.textBox39);
-            this.Controls.Add(this.textBox40);
-            this.Controls.Add(this.textBox41);
-            this.Controls.Add(this.textBox42);
-            this.Controls.Add(this.textBox43);
-            this.Controls.Add(this.textBox44);
+            this.Controls.Add(this.InfoCountWFano5);
+            this.Controls.Add(this.WordsElementaryCountFano5);
+            this.Controls.Add(this.entropyFano5W);
+            this.Controls.Add(this.InfoCountSenFano5);
+            this.Controls.Add(this.SenElementaryCountFano5);
+            this.Controls.Add(this.entropyFano5Sen);
+            this.Controls.Add(this.InfoCountSyllablesFano5);
+            this.Controls.Add(this.SyllablElementaryCountFano5);
+            this.Controls.Add(this.InfoCountLettersFano5);
+            this.Controls.Add(this.entropyFano5Syllables);
+            this.Controls.Add(this.LettersElementaryCountFano5);
+            this.Controls.Add(this.entropy5FanoLetters);
             this.Controls.Add(this.label27);
             this.Controls.Add(this.label28);
             this.Controls.Add(this.label29);
-            this.Controls.Add(this.textBox21);
-            this.Controls.Add(this.textBox22);
-            this.Controls.Add(this.textBox23);
-            this.Controls.Add(this.textBox24);
-            this.Controls.Add(this.textBox25);
-            this.Controls.Add(this.textBox26);
-            this.Controls.Add(this.textBox27);
-            this.Controls.Add(this.textBox28);
-            this.Controls.Add(this.textBox29);
-            this.Controls.Add(this.textBox30);
-            this.Controls.Add(this.textBox31);
-            this.Controls.Add(this.textBox32);
+            this.Controls.Add(this.InfoCountWFano3);
+            this.Controls.Add(this.WordsElementaryCountFano3);
+            this.Controls.Add(this.entropyFano3W);
+            this.Controls.Add(this.InfoCountSenFano3);
+            this.Controls.Add(this.SenElementaryCountFano3);
+            this.Controls.Add(this.entropyFano3Sen);
+            this.Controls.Add(this.InfoCountSyllablesFano3);
+            this.Controls.Add(this.SyllablElementaryCountFano3);
+            this.Controls.Add(this.InfoCountLettersFano3);
+            this.Controls.Add(this.entropyFano3Syllables);
+            this.Controls.Add(this.LettersElementaryCountFano3);
+            this.Controls.Add(this.entropy3FanoLetters);
             this.Controls.Add(this.label24);
             this.Controls.Add(this.label25);
             this.Controls.Add(this.label26);
@@ -2266,7 +2355,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.calculateBtn);
-            this.Controls.Add(this.ResultLabel);
             this.Controls.Add(this.resultTextBox);
             this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -2281,8 +2369,6 @@
         }
 
         #endregion
-        private System.Windows.Forms.TextBox resultTextBox;
-        private System.Windows.Forms.Label ResultLabel;
         private System.Windows.Forms.Button calculateBtn;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -2326,33 +2412,33 @@
         private System.Windows.Forms.RadioButton radioButton2;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label14;
-        private System.Windows.Forms.TextBox textBox21;
-        private System.Windows.Forms.TextBox textBox22;
-        private System.Windows.Forms.TextBox textBox23;
-        private System.Windows.Forms.TextBox textBox24;
-        private System.Windows.Forms.TextBox textBox25;
-        private System.Windows.Forms.TextBox textBox26;
-        private System.Windows.Forms.TextBox textBox27;
-        private System.Windows.Forms.TextBox textBox28;
-        private System.Windows.Forms.TextBox textBox29;
-        private System.Windows.Forms.TextBox textBox30;
-        private System.Windows.Forms.TextBox textBox31;
-        private System.Windows.Forms.TextBox textBox32;
+        private System.Windows.Forms.TextBox InfoCountWFano3;
+        private System.Windows.Forms.TextBox WordsElementaryCountFano3;
+        private System.Windows.Forms.TextBox entropyFano3W;
+        private System.Windows.Forms.TextBox InfoCountSenFano3;
+        private System.Windows.Forms.TextBox SenElementaryCountFano3;
+        private System.Windows.Forms.TextBox entropyFano3Sen;
+        private System.Windows.Forms.TextBox InfoCountSyllablesFano3;
+        private System.Windows.Forms.TextBox SyllablElementaryCountFano3;
+        private System.Windows.Forms.TextBox InfoCountLettersFano3;
+        private System.Windows.Forms.TextBox entropyFano3Syllables;
+        private System.Windows.Forms.TextBox LettersElementaryCountFano3;
+        private System.Windows.Forms.TextBox entropy3FanoLetters;
         private System.Windows.Forms.Label label24;
         private System.Windows.Forms.Label label25;
         private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.TextBox textBox33;
-        private System.Windows.Forms.TextBox textBox34;
-        private System.Windows.Forms.TextBox textBox35;
-        private System.Windows.Forms.TextBox textBox36;
-        private System.Windows.Forms.TextBox textBox37;
-        private System.Windows.Forms.TextBox textBox38;
-        private System.Windows.Forms.TextBox textBox39;
-        private System.Windows.Forms.TextBox textBox40;
-        private System.Windows.Forms.TextBox textBox41;
-        private System.Windows.Forms.TextBox textBox42;
-        private System.Windows.Forms.TextBox textBox43;
-        private System.Windows.Forms.TextBox textBox44;
+        private System.Windows.Forms.TextBox InfoCountWFano5;
+        private System.Windows.Forms.TextBox WordsElementaryCountFano5;
+        private System.Windows.Forms.TextBox entropyFano5W;
+        private System.Windows.Forms.TextBox InfoCountSenFano5;
+        private System.Windows.Forms.TextBox SenElementaryCountFano5;
+        private System.Windows.Forms.TextBox entropyFano5Sen;
+        private System.Windows.Forms.TextBox InfoCountSyllablesFano5;
+        private System.Windows.Forms.TextBox SyllablElementaryCountFano5;
+        private System.Windows.Forms.TextBox InfoCountLettersFano5;
+        private System.Windows.Forms.TextBox entropyFano5Syllables;
+        private System.Windows.Forms.TextBox LettersElementaryCountFano5;
+        private System.Windows.Forms.TextBox entropy5FanoLetters;
         private System.Windows.Forms.Label label27;
         private System.Windows.Forms.Label label28;
         private System.Windows.Forms.Label label29;
@@ -2371,13 +2457,6 @@
         private System.Windows.Forms.Label label30;
         private System.Windows.Forms.Label label31;
         private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.Label label17;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.TextBox textBox3;
@@ -2426,60 +2505,75 @@
         private System.Windows.Forms.TextBox textBox118;
         private System.Windows.Forms.TextBox textBox119;
         private System.Windows.Forms.TextBox textBox120;
-        private System.Windows.Forms.TextBox textBox121;
-        private System.Windows.Forms.TextBox textBox122;
-        private System.Windows.Forms.TextBox textBox123;
-        private System.Windows.Forms.TextBox textBox124;
-        private System.Windows.Forms.TextBox textBox125;
-        private System.Windows.Forms.TextBox textBox126;
-        private System.Windows.Forms.TextBox textBox127;
-        private System.Windows.Forms.TextBox textBox128;
-        private System.Windows.Forms.TextBox textBox129;
-        private System.Windows.Forms.TextBox textBox130;
-        private System.Windows.Forms.TextBox textBox131;
-        private System.Windows.Forms.TextBox textBox132;
-        private System.Windows.Forms.TextBox textBox133;
-        private System.Windows.Forms.TextBox textBox134;
-        private System.Windows.Forms.TextBox textBox135;
-        private System.Windows.Forms.TextBox textBox136;
-        private System.Windows.Forms.TextBox textBox137;
-        private System.Windows.Forms.TextBox textBox138;
-        private System.Windows.Forms.TextBox textBox139;
-        private System.Windows.Forms.TextBox textBox140;
-        private System.Windows.Forms.TextBox textBox141;
-        private System.Windows.Forms.TextBox textBox142;
-        private System.Windows.Forms.TextBox textBox143;
-        private System.Windows.Forms.TextBox textBox144;
-        private System.Windows.Forms.TextBox textBox145;
-        private System.Windows.Forms.TextBox textBox146;
-        private System.Windows.Forms.TextBox textBox147;
-        private System.Windows.Forms.TextBox textBox148;
-        private System.Windows.Forms.TextBox textBox149;
+        private System.Windows.Forms.TextBox InfoCountWHuf5;
+        private System.Windows.Forms.TextBox WordsElementaryCountHuf5;
+        private System.Windows.Forms.TextBox entropyHuf5W;
+        private System.Windows.Forms.TextBox InfoCountSenHuf5;
+        private System.Windows.Forms.TextBox SenElementaryCountHuf5;
+        private System.Windows.Forms.TextBox entropyHuf5Sen;
+        private System.Windows.Forms.TextBox InfoCountSyllablesHuf5;
+        private System.Windows.Forms.TextBox SyllablElementaryCountHuf5;
+        private System.Windows.Forms.TextBox InfoCountLettersHuf5;
+        private System.Windows.Forms.TextBox entropyHuf5Syllables;
+        private System.Windows.Forms.TextBox LettersElementaryCountHuf5;
+        private System.Windows.Forms.TextBox entropyHuf5Letters;
+        private System.Windows.Forms.TextBox InfoCountWHuf3;
+        private System.Windows.Forms.TextBox WordsElementaryCountHuf3;
+        private System.Windows.Forms.TextBox entropyHuf3W;
+        private System.Windows.Forms.TextBox InfoCountSenHuf3;
+        private System.Windows.Forms.TextBox SenElementaryCountHuf3;
+        private System.Windows.Forms.TextBox entropyHuf3Sen;
+        private System.Windows.Forms.TextBox InfoCountSyllablesHuf3;
+        private System.Windows.Forms.TextBox SyllablElementaryCountHuf3;
+        private System.Windows.Forms.TextBox InfoCountLettersHuf3;
+        private System.Windows.Forms.TextBox entropyHuf3Syllables;
+        private System.Windows.Forms.TextBox LettersElementaryCountHuf3;
+        private System.Windows.Forms.TextBox entropyHuf3Letters;
+        private System.Windows.Forms.TextBox InfoCountWHuf2;
+        private System.Windows.Forms.TextBox WordsElementaryCountHuf2;
+        private System.Windows.Forms.TextBox entropyHuf2W;
+        private System.Windows.Forms.TextBox CountUnicWordsHufTextbox;
+        private System.Windows.Forms.TextBox CountLettersHufTextbox;
         private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.TextBox textBox150;
-        private System.Windows.Forms.TextBox textBox151;
-        private System.Windows.Forms.TextBox textBox152;
-        private System.Windows.Forms.TextBox textBox153;
-        private System.Windows.Forms.TextBox textBox154;
+        private System.Windows.Forms.TextBox InfoCountSenHuf2;
+        private System.Windows.Forms.TextBox SenElementaryCountHuf2;
+        private System.Windows.Forms.TextBox entropyHuf2Sen;
+        private System.Windows.Forms.TextBox CountUnicSenHufTextbox;
+        private System.Windows.Forms.TextBox CountWordsHuffmanTextbox;
         private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.TextBox textBox155;
-        private System.Windows.Forms.TextBox textBox156;
-        private System.Windows.Forms.TextBox textBox157;
-        private System.Windows.Forms.TextBox textBox158;
-        private System.Windows.Forms.TextBox textBox159;
-        private System.Windows.Forms.TextBox textBox160;
-        private System.Windows.Forms.TextBox textBox161;
-        private System.Windows.Forms.TextBox textBox162;
-        private System.Windows.Forms.TextBox textBox163;
-        private System.Windows.Forms.TextBox textBox164;
+        private System.Windows.Forms.TextBox InfoCountSyllablesHuf2;
+        private System.Windows.Forms.TextBox SyllablElementaryCountHuf2;
+        private System.Windows.Forms.TextBox InfoCountLettersHuf2;
+        private System.Windows.Forms.TextBox entropyHuf2Syllables;
+        private System.Windows.Forms.TextBox LettersElementaryCountHuf2;
+        private System.Windows.Forms.TextBox entropyHuf2Letters;
+        private System.Windows.Forms.TextBox CountUnicSyllablesHufTextbox;
+        private System.Windows.Forms.TextBox CountSentencesHuffmanTextbox;
+        private System.Windows.Forms.TextBox CountUnicLettersHufTextbox;
+        private System.Windows.Forms.TextBox CountSyllsblesHuffmanTextbox;
         private System.Windows.Forms.Label label46;
         private System.Windows.Forms.Label label47;
         private System.Windows.Forms.Label label48;
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label22;
+        private System.Windows.Forms.CheckBox Fanofor2Check;
+        private System.Windows.Forms.CheckBox Huffmanfor2Check;
+        private System.Windows.Forms.CheckBox Fanofor3Check;
+        private System.Windows.Forms.CheckBox Huffmanfor3Check;
+        private System.Windows.Forms.CheckBox Fanofor5Check;
+        private System.Windows.Forms.CheckBox Huffmanfor5Check;
+        private System.Windows.Forms.CheckBox checkBoxforSen;
+        private System.Windows.Forms.CheckBox checkBoxforWords;
+        private System.Windows.Forms.CheckBox checkBoxforSyllables;
+        private System.Windows.Forms.CheckBox checkBoxforLetters;
+        private System.Windows.Forms.Label label15;
+        private System.Windows.Forms.TextBox textBox73;
+        private System.Windows.Forms.TextBox resultTextBox;
+        private System.Windows.Forms.CheckBox allFano;
+        private System.Windows.Forms.CheckBox allHuffman;
+        private System.Windows.Forms.CheckBox allLec;
+        private System.Windows.Forms.CheckBox all;
+        private System.Windows.Forms.CheckBox needGrafic;
     }
 }
 
